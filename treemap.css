@@ -1,0 +1,47 @@
+/* General body styling */
+body {
+  font-family: "Roboto Mono", monospace; /* Changed to Roboto Mono */
+  margin: 0;
+  background-color: #0f0f0f;
+  color: #fff;
+  text-align: left; /* Align text to the left */
+  padding: 20px 20px; /* Add uniform padding on all sides */
+}
+
+/* Styling for the main title */
+h1 {
+  font-size: 32px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-left: 20px; /* Align with the body left padding */
+}
+
+/* Styling for the subtitle */
+h2 {
+  font-size: 18px;
+  margin: 10px 0 30px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: #aaaaaa;
+  margin-left: 20px; /* Align with the body left padding */
+}
+
+/* Treemap container styling */
+#treemap-container {
+  margin: 0 auto;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  justify-content: flex-start; /* Align container content to the left */
+  align-items: center;
+  margin-left: 20px; /* Align the treemap with the body text */
+}
+
+/* SVG text inside the treemap */
+svg text {
+  font-family: "Roboto Mono", monospace; /* Ensure treemap labels use Roboto Mono */
+  fill: #fff; /* Text color remains white */
+}
