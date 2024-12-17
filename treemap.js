@@ -149,7 +149,7 @@ function renderTreemap(data) {
     .text("Zoom")
     .style("position", "relative")
     .style("top", "50px")
-    .style("left", `${width - 0}px`) // Align with outer right corner of the treemap
+    .style("left", `${width - 50}px`) // Align with outer right corner of the treemap
     .style("padding", "10px 20px")
     .style("background-color", "#333")
     .style("color", "#fff")
