@@ -91,7 +91,7 @@ function renderTreemap(data) {
 
     nodes
       .transition()
-      .duration(750)
+      .duration(1200)
       .ease(d3.easePoly.exponent(4))
       .attr(
         "transform",
@@ -114,7 +114,7 @@ function renderTreemap(data) {
   function resetZoom() {
     nodes
       .transition()
-      .duration(750)
+      .duration(1000)
       .ease(d3.easePoly.exponent(4))
       .attr("transform", (d) => `translate(${d.x0},${d.y0})`)
       .select("rect")
