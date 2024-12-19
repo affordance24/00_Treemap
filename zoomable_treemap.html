@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <title>CO2 EMISSIONS - OVERVIEW OF ALL SECTORS</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -11,9 +17,18 @@
     />
   </head>
   <body>
-    <h1>CO2 EMISSIONS</h1>
-    <h2>OVERVIEW OF ALL SECTORS</h2>
-    <div id="treemap-container"></div>
-    <script src="treemap.js"></script>
+    <div class="pageWrapper">
+      <div class="pageTitle">
+        <div>
+          <h1>CO2 EMISSIONS</h1>
+          <h2>OVERVIEW OF ALL SECTORS</h2>
+        </div>
+        <div>
+          <h2>click the bottom right corner to dive deeper</h2>
+        </div>
+      </div>
+      <div id="treemap-container"></div>
+    </div>
   </body>
+  <script src="treemap.js"></script>
 </html>
